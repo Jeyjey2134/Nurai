@@ -19,10 +19,10 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params: {locale}
+  params: { locale },
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: { locale: string };
 }) {
   let messages;
   try {
@@ -33,6 +33,14 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {/* ✅ Umami Tracking eingebunden */}
+        <script
+          defer
+          src="https://umami-nine-black.vercel.app/script.js"
+          data-website-id="23a10cdd-8909-4000-9c03-85fc0cc73af0"
+        ></script>
+      </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         <StandaloneLanguageSwitcher />
         <NextIntlClientProvider locale={locale} messages={messages}>
@@ -41,4 +49,4 @@ export default async function LocaleLayout({
       </body>
     </html>
   );
-} 
+}
