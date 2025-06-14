@@ -17,13 +17,20 @@ export default function Waitlist() {
     setLoading(true)
     setError('')
     setSuccess(false)
+  
     try {
       const res = await fetch('/api/waitlist', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
       })
+  
       if (res.ok) {
+        // ✅ Umami Tracking bei erfolgreicher Eintragung
+        if (typeof window !== 'undefined' && (window as any).umami) {
+          (window as any).umami.track('waitlist-signup')
+        }
+  
         setSuccess(true)
         setEmail('')
         setName('')
@@ -37,6 +44,7 @@ export default function Waitlist() {
       setLoading(false)
     }
   }
+  
 
   return (
     <section className="section bg-white relative overflow-hidden min-h-screen flex items-center">

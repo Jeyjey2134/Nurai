@@ -15,6 +15,20 @@ export default function Hero() {
     }
   }
 
+  const handleCTAClick = () => {
+    if (typeof window !== 'undefined' && (window as any).umami) {
+      (window as any).umami.track('warteliste-klick')
+    }
+    scrollToWaitlist()
+  }
+
+  const handleArrowClick = () => {
+    if (typeof window !== 'undefined' && (window as any).umami) {
+      (window as any).umami.track('arrow-scroll')
+    }
+    scrollToWaitlist()
+  }
+
   return (
     <section className="section bg-gradient-to-br from-purple-50 to-white">
       <div className="container">
@@ -26,12 +40,10 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="heading-1 mb-6">{t('title')}</h1>
-            <p className="text-xl text-gray-600 mb-8">
-              {t('subtitle')}
-            </p>
+            <p className="text-xl text-gray-600 mb-8">{t('subtitle')}</p>
             <motion.button
               className="btn-primary"
-              onClick={scrollToWaitlist}
+              onClick={handleCTAClick}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -46,7 +58,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <button
-              onClick={scrollToWaitlist}
+              onClick={handleArrowClick}
               className="text-purple-600 hover:text-purple-700 transition-colors"
             >
               <ArrowDownIcon className="w-6 h-6 mx-auto animate-bounce" />
@@ -56,4 +68,4 @@ export default function Hero() {
       </div>
     </section>
   )
-} 
+}
