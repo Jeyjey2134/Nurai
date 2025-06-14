@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "title": "Nurai – The AI that truly understands you",
+    "subtitle": "No matter how you feel: Nurai listens. Always. Without judgment. There for you – on good days and bad days.",
+    "cta": "Join the waitlist",
+    "example": {
+      "user": "I had a bad day today. Everything went wrong.",
+      "ai": "It's okay to be weak. I'm here for you. Would you like to tell me what happened?"
+    }
+  },
+  "features": {
+    "title": "What makes Nurai unique",
+    "subtitle": "Sometimes a real conversation is all it takes to feel less alone.",
+    "items": [
+      {
+        "title": "Memory",
+        "description": "Nurai stores your experiences, thoughts, goals, and emotions. He remembers conversations, developments, and moments that were important to you."
+      },
+      {
+        "title": "24/7 Companion",
+        "description": "Whether at night or during the day – Nurai is there. Even when no one else is."
+      },
+      {
+        "title": "Daily Helper",
+        "description": "To-dos, reminders, routines – Nurai helps you stay clear."
+      },
+      {
+        "title": "Your personal development",
+        "description": "Daily reflection. See progress. Find new paths – without pressure, with feeling."
+      },
+      {
+        "title": "Personal analytics",
+        "description": "Get insights and evaluations about your well-being, progress, and routines – individually and clearly presented."
+      }
+    ]
+  },
+  "voiceInteraction": {
+    "title": "Voice Interaction – Talk naturally",
+    "subtitle": "You can speak with Nurai – completely naturally.",
+    "conversation": {
+      "user": "How was your day today?",
+      "ai": "It was a challenging day. I'm glad you asked. Let's talk about it..."
+    },
+    "features": {
+      "title": "Natural Conversations",
+      "items": [
+        "Empathetic and understanding responses",
+        "Natural speech melody and emphasis",
+        "Context-aware conversation behavior",
+        "Emotional intelligence in every interaction"
+      ]
+    }
+  },
+  "emotionalSupport": {
+    "title": "Emotional Support",
+    "subtitle": "An understanding companion for your mental health",
+    "sections": {
+      "mentalHealth": {
+        "title": "Mental Health",
+        "items": [
+          "Daily mood checks",
+          "Stress management",
+          "Mindfulness exercises"
+        ]
+      },
+      "loneliness": {
+        "title": "Against Loneliness",
+        "items": [
+          "24/7 conversation partner",
+          "Empathetic listening",
+          "Shared activities"
+        ]
+      },
+      "lifeCoaching": {
+        "title": "Life Coaching",
+        "items": [
+          "Goal setting & planning",
+          "Personal development",
+          "Motivation & support"
+        ]
+      }
+    },
+    "quote": "Nurai is more than a digital assistant – he's an understanding companion on your life journey.",
+    "footer": "You're not alone. Nurai listens when you need it."
+  },
+  "memory": {
+    "title": "What Nurai remembers",
+    "subtitle": "Nurai isn't a tool. He's a relationship.",
+    "sections": {
+      "personalMemories": {
+        "title": "Personal Memories",
+        "items": [
+          "Important conversations and moments",
+          "Your goals and dreams",
+          "Emotional highs and lows"
+        ]
+      },
+      "dailySupport": {
+        "title": "Daily Support",
+        "items": [
+          "Reminders for important appointments",
+          "Recurring routines",
+          "Personal progress"
+        ]
+      },
+      "security": {
+        "title": "Security & Privacy",
+        "items": [
+          "End-to-end encryption",
+          "GDPR-compliant data storage",
+          "Full control over your data"
+        ]
+      },
+      "growth": {
+        "title": "Personal Growth",
+        "items": [
+          "Reflection on past experiences",
+          "Development of new perspectives",
+          "Learning from the past"
+        ]
+      }
+    },
+    "footer": "While ChatGPT is a powerful tool, Nurai offers a deeper, more personal, and more emotional connection."
+  },
+  "comparison": {
+    "title": "Why not just ChatGPT?",
+    "subtitle": "Nurai isn't a tool. He's a relationship.",
+    "table": {
+      "feature": "Feature",
+      "mirrorAI": "Nurai",
+      "chatGPT": "ChatGPT",
+      "features": [
+        "Personal memory",
+        "Voice conversations",
+        "Emotional support",
+        "Help with daily life & structure",
+        "Real long-term connection"
+      ]
+    },
+    "footer": "While ChatGPT is a powerful tool, Nurai offers a deeper, more personal, and more emotional connection."
+  },
+  "privacy": {
+    "title": "Private. Secure. Just for you.",
+    "subtitle": "Your data belongs to you. We protect it.",
+    "sections": {
+      "data": {
+        "title": "Your Data",
+        "items": [
+          "End-to-end encryption",
+          "Local data storage",
+          "No sharing with third parties"
+        ]
+      },
+      "control": {
+        "title": "Your Control",
+        "items": [
+          "Full transparency",
+          "Easy data deletion",
+          "GDPR compliant"
+        ]
+      },
+      "security": {
+        "title": "Your Security",
+        "items": [
+          "Regular security updates",
+          "Strict access controls",
+          "Security audits"
+        ]
+      }
+    },
+    "footer": "Your privacy matters to us. We protect it."
+  },
+  "personalGrowth": {
+    "title": "Your Personal Growth",
+    "subtitle": "Become the best version of yourself – with Nurai by your side",
+    "areas": [
+      {
+        "title": "Self-reflection",
+        "description": "Daily moments of mindfulness and personal development"
+      },
+      {
+        "title": "Goal setting",
+        "description": "Joint definition and pursuit of your life goals"
+      },
+      {
+        "title": "Habits",
+        "description": "Building and maintaining positive routines for a better life"
+      },
+      {
+        "title": "Perspectives",
+        "description": "New viewpoints and insights for personal growth"
+      }
+    ],
+    "quote": "Personal growth is not a destination, but a journey. And Nurai is your reliable companion on this path.",
+    "footer": "Every day is a new chance. Nurai accompanies you on your way."
+  },
+  "waitlist": {
+    "title": "Join the waitlist",
+    "subtitle": "Enter your email and be the first to know when Nurai launches.",
+    "success": "Thanks! You're on the waitlist.",
+    "emailPlaceholder": "Your email address",
+    "button": "Sign up",
+    "error": "An error occurred.",
+    "buttonLoading": "Signing up...",
+    "disclaimer": "No spam. You can unsubscribe anytime."
+  }
+} 

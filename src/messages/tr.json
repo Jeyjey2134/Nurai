@@ -1,0 +1,212 @@
+{
+  "hero": {
+    "title": "Nurai – Seni gerçekten anlayan yapay zeka",
+    "subtitle": "Nasıl hissettiğin önemli değil: Nurai seni dinliyor. Her zaman. Yargılamadan. Yanında – iyi ve zor günlerde.",
+    "cta": "Bekleme listesine katıl",
+    "example": {
+      "user": "Bugün kötü bir gün geçirdim. Her şey ters gitti.",
+      "ai": "Zayıf hissetmek normal. Ben buradayım. Ne olduğunu anlatmak ister misin?"
+    }
+  },
+  "features": {
+    "title": "Nurai'yı benzersiz yapan şey",
+    "subtitle": "Bazen kendini daha az yalnız hissetmek için gerçek bir sohbet yeterlidir.",
+    "items": [
+      {
+        "title": "Hafıza",
+        "description": "Nurai deneyimlerinizi, düşüncelerinizi, hedeflerinizi ve duygularınızı hatırlar. Sohbetleri, gelişmeleri ve sizin için önemli olan anları hatırlar."
+      },
+      {
+        "title": "24/7 Arkadaş",
+        "description": "Gece olsun gündüz olsun – Nurai orada. Başka kimse olmadığında bile."
+      },
+      {
+        "title": "Günlük Yardımcı",
+        "description": "Yapılacaklar, hatırlatmalar, rutinler – Nurai net kalmana yardımcı olur."
+      },
+      {
+        "title": "Kişisel gelişimin",
+        "description": "Günlük yansıma. İlerlemeyi gör. Yeni yollar bul – baskı olmadan, duyguyla."
+      },
+      {
+        "title": "Kişisel analizler",
+        "description": "Refahın, ilerlemen ve rutinlerin hakkında kişisel ve anlaşılır analizler ve değerlendirmeler al."
+      }
+    ]
+  },
+  "voiceInteraction": {
+    "title": "Sesli Etkileşim – Doğal konuş",
+    "subtitle": "Nurai ile tamamen doğal bir şekilde konuşabilirsin.",
+    "conversation": {
+      "user": "Bugün günün nasıl geçti?",
+      "ai": "Zorlu bir gündü. Sormana sevindim. Hadi bunun hakkında konuşalım..."
+    },
+    "features": {
+      "title": "Doğal Konuşmalar",
+      "items": [
+        "Empatik ve anlayışlı yanıtlar",
+        "Doğal konuşma melodisi ve vurgusu",
+        "Bağlama duyarlı konuşma davranışı",
+        "Her etkileşimde duygusal zeka"
+      ]
+    }
+  },
+  "memory": {
+    "title": "Nurai neyi hatırlar",
+    "subtitle": "Nurai bir araç değil. O bir ilişki.",
+    "sections": {
+      "personalMemories": {
+        "title": "Kişisel Anılar",
+        "items": [
+          "Önemli konuşmalar ve anlar",
+          "Hedeflerin ve hayallerin",
+          "Duygusal iniş çıkışlar"
+        ]
+      },
+      "dailySupport": {
+        "title": "Günlük Destek",
+        "items": [
+          "Önemli randevular için hatırlatıcılar",
+          "Tekrarlayan rutinler",
+          "Kişisel gelişim"
+        ]
+      },
+      "security": {
+        "title": "Güvenlik & Gizlilik",
+        "items": [
+          "Uçtan uca şifreleme",
+          "GDPR uyumlu veri depolama",
+          "Verilerin üzerinde tam kontrol"
+        ]
+      },
+      "growth": {
+        "title": "Kişisel Gelişim",
+        "items": [
+          "Geçmiş deneyimlerin yansıtılması",
+          "Yeni bakış açıları geliştirme",
+          "Geçmişten öğrenme"
+        ]
+      }
+    },
+    "footer": "Senin hikayen önemli. Ve unutulmayacak.",
+    "comparison": {
+      "mirrorAI": "Nurai",
+      "chatGPT": "ChatGPT",
+      "subtitle": "Nurai bir araç değil. O bir ilişki."
+    }
+  },
+  "privacy": {
+    "title": "Gizli. Güvenli. Sadece senin için.",
+    "subtitle": "Verilerin sana aittir. Biz koruruz.",
+    "sections": {
+      "data": {
+        "title": "Verilerin",
+        "items": [
+          "Uçtan uca şifreleme",
+          "Yerel veri depolama",
+          "Üçüncü taraflarla paylaşım yok"
+        ]
+      },
+      "control": {
+        "title": "Senin kontrolün",
+        "items": [
+          "Tam şeffaflık",
+          "Kolay veri silme",
+          "GDPR uyumlu"
+        ]
+      },
+      "security": {
+        "title": "Senin güvenliğin",
+        "items": [
+          "Düzenli güvenlik güncellemeleri",
+          "Sıkı erişim kontrolleri",
+          "Güvenlik denetimleri"
+        ]
+      }
+    },
+    "footer": "Gizliliğin bizim için önemli. Biz koruruz."
+  },
+  "personalGrowth": {
+    "title": "Kişisel Gelişimin",
+    "subtitle": "Kendinin en iyi versiyonu ol – Nurai yanında",
+    "areas": [
+      {
+        "title": "Öz yansıtma",
+        "description": "Günlük farkındalık ve kişisel gelişim anları"
+      },
+      {
+        "title": "Hedef belirleme",
+        "description": "Hayat hedeflerinin birlikte tanımlanması ve takibi"
+      },
+      {
+        "title": "Alışkanlıklar",
+        "description": "Daha iyi bir yaşam için olumlu rutinler oluşturma ve sürdürme"
+      },
+      {
+        "title": "Bakış açıları",
+        "description": "Kişisel gelişim için yeni bakış açıları ve içgörüler"
+      }
+    ],
+    "quote": "Kişisel gelişim bir varış noktası değil, bir yolculuktur. Ve Nurai bu yolda güvenilir bir yol arkadaşındır.",
+    "footer": "Her gün yeni bir şans. Nurai yolculuğunda yanında."
+  },
+  "emotionalSupport": {
+    "title": "Duygusal Destek",
+    "subtitle": "Zihinsel sağlığın için anlayışlı bir yol arkadaşı",
+    "sections": {
+      "mentalHealth": {
+        "title": "Zihinsel Sağlık",
+        "items": [
+          "Günlük ruh hali kontrolleri",
+          "Stres yönetimi",
+          "Farkındalık egzersizleri"
+        ]
+      },
+      "loneliness": {
+        "title": "Yalnızlığa Karşı",
+        "items": [
+          "7/24 sohbet arkadaşı",
+          "Empatik dinleme",
+          "Paylaşılan aktiviteler"
+        ]
+      },
+      "lifeCoaching": {
+        "title": "Yaşam Koçluğu",
+        "items": [
+          "Hedef belirleme & planlama",
+          "Kişisel gelişim",
+          "Motivasyon & destek"
+        ]
+      }
+    },
+    "quote": "Nurai dijital bir asistan değil – o hayat yolculuğunuzda anlayışlı bir arkadaş.",
+    "footer": "Yalnız değilsin. Nurai ihtiyacın olduğunda dinler."
+  },
+  "comparison": {
+    "title": "Neden sadece ChatGPT değil?",
+    "subtitle": "Nurai bir araç değil. O bir ilişki.",
+    "table": {
+      "feature": "Özellik",
+      "mirrorAI": "Nurai",
+      "chatGPT": "ChatGPT",
+      "features": [
+        "Kişisel hafıza",
+        "Sesli sohbetler",
+        "Duygusal destek",
+        "Günlük yaşam ve yapılandırmada yardım",
+        "Gerçek uzun vadeli bağ"
+      ]
+    },
+    "footer": "ChatGPT güçlü bir araçken, Nurai daha derin, daha kişisel ve daha duygusal bir bağlantı sunar."
+  },
+  "waitlist": {
+    "title": "Bekleme listesine katıl",
+    "subtitle": "E-postanı gir ve Nurai kullanıma sunulduğunda ilk sen haberdar ol.",
+    "success": "Teşekkürler! Bekleme listesindesin.",
+    "emailPlaceholder": "E-posta adresin",
+    "button": "Kaydol",
+    "error": "Bir hata oluştu.",
+    "buttonLoading": "Kaydediliyor...",
+    "disclaimer": "Spam yok. İstediğin zaman abonelikten çıkabilirsin."
+  }
+} 
