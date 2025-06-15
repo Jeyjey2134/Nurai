@@ -203,5 +203,8 @@
     "error": "Ein Fehler ist aufgetreten.",
     "buttonLoading": "Eintragen...",
     "disclaimer": "Kein Spam. Du kannst dich jederzeit austragen."
+  },
+  "Index": {
+    "welcome": "Willkommen bei Nurai!"
   }
 } 

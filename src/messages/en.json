@@ -203,5 +203,8 @@
     "error": "An error occurred.",
     "buttonLoading": "Signing up...",
     "disclaimer": "No spam. You can unsubscribe anytime."
+  },
+  "Index": {
+    "welcome": "Welcome to Nurai!"
   }
 } 
