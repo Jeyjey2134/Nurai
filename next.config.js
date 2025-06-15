@@ -3,6 +3,10 @@ const withNextIntl = require('next-intl/plugin')('./src/i18n.ts');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  i18n: {
+    locales: ['en', 'de', 'fr', 'es', 'it', 'tr'],
+    defaultLocale: 'en',
+  },
   // Optimize chunks and assets
   webpack: (config, { isServer }) => {
     // Optimize chunk loading
