@@ -19,7 +19,7 @@ export default function Waitlist() {
     setSuccess(false)
   
     try {
-      const res = await fetch('/api/waitlist', {
+      const res = await fetch('/api/waitlist/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
