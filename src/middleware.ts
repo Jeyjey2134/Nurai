@@ -1,19 +1,19 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import createMiddleware from 'next-intl/middleware';
+import { NextRequest } from 'next/server';
 
-const PUBLIC_LOCALES = ['de', 'en', 'fr', 'es', 'it', 'tr']
+const locales = ['de', 'en', 'fr', 'es', 'it', 'tr'];
+const defaultLocale = 'en';
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl
+export default async function middleware(request: NextRequest) {
+  const handleI18nRouting = createMiddleware({
+    locales,
+    defaultLocale,
+    localePrefix: 'always'
+  });
 
-  // Wenn URL bereits ein gültiges Locale enthält → zulassen
-  if (PUBLIC_LOCALES.some((loc) => pathname.startsWith(`/${loc}`))) {
-    return NextResponse.next()
-  }
-
-  // 👉 Standard-Locale definieren
-  const defaultLocale = 'en'
-
-  // ➤ Weiterleitung auf Default-Locale
-  return NextResponse.redirect(new URL(`/${defaultLocale}`, request.url))
+  return handleI18nRouting(request);
 }
+
+export const config = {
+  matcher: ['/((?!api|_next|.*\\..*).*)']
+};
